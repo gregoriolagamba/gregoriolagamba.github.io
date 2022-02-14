@@ -45,7 +45,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-          deploy_key: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           #external_repository: gregoriolagamba/gregoriolagamba.github.io
           publish_dir: ./public
           #user_name: gregoriolagamba
