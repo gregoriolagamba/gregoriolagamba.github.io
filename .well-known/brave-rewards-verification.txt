@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gregoriolagamba.github.io
+Token: add1879a4f6701fe4c4dfaab2cdf2b8d855b59d39df67d49f56ce34d6eb51590
