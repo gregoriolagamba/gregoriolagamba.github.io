@@ -20,15 +20,18 @@ socials:
     #google_scholar: "YOUR_NAME"
 
 interests:
-    - Blockchain and Cryptocurrencies
-    - IoT and Artificial Intelligence
-    - Trading on line
-    - Process Definition and Process Automation tools
+    - Excellent analytical skills
+    - Design of software architectures
+    - BPM tools
+    - ETL and data integration tools
+    - Team leadership
+    - Job coaching
+    - Problem solving
 
 affiliations:
     - affiliation:
-        title: "Tech Enthusiast"
-        name: "@myHomeOffice"
+        title: "IT Solution Architect"
+        name: "10+ years of experience"
         email: "gregoriolagamba@gmail.com"
 
 academia:
@@ -42,13 +45,11 @@ academia:
 
 ---
 
-**Project Manager** and **Senior Business Analyst** with **10+ years** of experience in managing activities on Telco, Finance and Utilities companies.
-Previously, **6 years** of experience as **analyst programmer and team leader** for several projects on JavaEE and Oracle technologies.
+I am a **Solution Architect** with experience on projects in Telco, Finance and Utilities and with previous experience on several technological contexts and in different roles and tasks (programmer, analyst, team leader, project manager, test manager, business and functional analyst).
+
+I have achieved good communication and interpersonal skills, as in addition to excellent ability to analyze and understand the requirements expressed by the business. 
+These skills, together with the technical expertise gained through the years, allow me to have the overview necessary for the design of the most appropriate technological solutions for the specific project context.
 
 Passionate about innovation and technology, I like to read, study and experiment with new ideas on new projects.
 
-**Brand Ambassador** for **[Young Platform][1]**, an Italian FinTech startup that aims to become a smart digital bank natively focused on new digital services.
-
 I play **guitar**, I like **photography**, I love **nature** and **bike rides**.
-
-[1]: https://youngplatform.com/en/
