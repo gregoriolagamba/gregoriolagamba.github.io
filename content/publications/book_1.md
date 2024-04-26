@@ -9,6 +9,6 @@ authors:
 date: "2004-10-01"
 
 links:
-    buy: https://www.amazon.it/povero-Quello-ricchi-insegnano-denaro/dp/8871527747
-    author: https://it.wikipedia.org/wiki/Robert_Kiyosaki
+    compra: https://www.amazon.it/povero-Quello-ricchi-insegnano-denaro/dp/8871527747
+    autore: https://it.wikipedia.org/wiki/Robert_Kiyosaki
 ---

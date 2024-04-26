@@ -8,6 +8,6 @@ authors:
 date: "2019-07-24"
 
 links:
-    buy: https://www.amazon.it/Mastering-Bitcoin-Traduzione-italiana-blockchain/dp/1081849118
-    author: https://en.wikipedia.org/wiki/Andreas_Antonopoulos
+    compra: https://www.amazon.it/Mastering-Bitcoin-Traduzione-italiana-blockchain/dp/1081849118
+    autore: https://en.wikipedia.org/wiki/Andreas_Antonopoulos
 ---

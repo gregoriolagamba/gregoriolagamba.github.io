@@ -7,6 +7,6 @@ authors:
 date: "2017-10-12"
 
 links:
-    buy: https://www.amazon.it/Human-centered-work-Edoardo-Turelli/dp/8823836425
-    author: https://edoardoturelli.com/
+    compra: https://www.amazon.it/Human-centered-work-Edoardo-Turelli/dp/8823836425
+    autore: https://edoardoturelli.com/
 ---

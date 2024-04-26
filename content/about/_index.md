@@ -20,10 +20,9 @@ socials:
     #google_scholar: "YOUR_NAME"
 
 interests:
-    - Excellent analytical skills
-    - Design of software architectures
+    - Software Architecture Design
     - BPM tools
-    - ETL and data integration tools
+    - ETL e Data Integration tools
     - Team leadership
     - Job coaching
     - Problem solving
@@ -31,7 +30,7 @@ interests:
 affiliations:
     - affiliation:
         title: "IT Solution Architect"
-        name: "10+ years of experience"
+        name: "10+ anni di esperienza"
         email: "gregoriolagamba@gmail.com"
 
 academia:
@@ -45,11 +44,7 @@ academia:
 
 ---
 
-I am a **Solution Architect** with experience on projects in Telco, Finance and Utilities and with previous experience on several technological contexts and in different roles and tasks (programmer, analyst, team leader, project manager, test manager, business and functional analyst).
+Sono un **IT Solution Architect** con esperienza su progetti in ambito Telco, Finance ed Utilities e con pregressa esperienza su molteplici contesti tecnologici e in diversi ruoli e mansioni (analista programmatore, team leader, project manager, test manager, business and functional analyst).
 
-I have achieved good communication and interpersonal skills, as in addition to excellent ability to analyze and understand the requirements expressed by the business. 
-These skills, together with the technical expertise gained through the years, allow me to have the overview necessary for the design of the most appropriate technological solutions for the specific project context.
-
-Passionate about innovation and technology, I like to read, study and experiment with new ideas on new projects.
-
-I play **guitar**, I like **photography**, I love **nature** and **bike rides**.
+Ho acquisito buone capacità comunicative e relazionali, oltre che ottime capacità di analisi e comprensione dei requisiti espressi dal business. 
+Tali abilità, unitamente alle competenze tecniche maturate nel tempo, mi consentono di avere la visione d’insieme necessaria per il disegno delle soluzioni tecnologiche più appropriate ad ogni specifico contesto progettuale.

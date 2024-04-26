@@ -21,7 +21,7 @@
             </div>
             <div class="section-1 w-100">
                 <span class="text-muted custom-publication-date">
-                    Year: {{substr ($page.Params.date.Format "2006-01-02") 0 4}}
+                    Anno: {{substr ($page.Params.date.Format "2006-01-02") 0 4}}
                 </span>
             </div>
 
@@ -30,7 +30,7 @@
                 {{ $authors := $page.Params.authors }}
 
                 {{ if $authors }}
-                Authors: 
+                Autori: 
                 {{range $i, $author := $authors}}
                 <span>
                     {{$author}}

@@ -7,8 +7,8 @@ weight: 3
 content_type: 'publications'
 section_settings:
     show_section: true
-    title: 'My favorite books'
-    subtitle: '...not all read yet!'   
+    title: 'Libri preferiti'
+    subtitle: '...ma non ancora letti tutti!'   
 ---
 
 home/publications.md
