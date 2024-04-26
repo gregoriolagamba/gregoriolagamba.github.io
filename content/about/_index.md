@@ -35,12 +35,12 @@ affiliations:
 
 academia:
     - course:
-        degree: "M.Sc."
+        degree: ""
         institution:  "Università degli Studi della Calabria"
-        major: "Computer Engineering"
+        major: "Laurea in Ingegneria Informatica"
         start_date: "1998"
         end_date: '2005'
-        other_info: 'graduated with 106/110'
+        other_info: 'votazione: 106/110'
 
 ---
 
