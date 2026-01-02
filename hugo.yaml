@@ -1,0 +1,192 @@
+baseURL: "https://gregoriolagamba.github.io/"
+languageCode: "it-it"
+title: "Gregorio La Gamba - Personal Blog"
+theme: "PaperMod"
+
+# Impostazioni di build
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+# Lingua di default
+defaultContentLanguage: it
+
+# Configurazione minify
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Menu di navigazione
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 20
+#    - identifier: progetti
+#      name: Progetti
+#      url: /projects/
+#      weight: 25
+    - identifier: about
+      name: Chi Sono
+      url: /about/
+      weight: 30
+    - identifier: contatti
+      name: Contatti
+      url: /contact/
+      weight: 40
+    - identifier: search
+      name: Cerca 🔎
+      url: /search/
+      weight: 50
+  
+  footer:
+    - identifier: privacy
+      name: Privacy Policy
+      url: /privacy/
+      weight: 10
+    - identifier: rss
+      name: RSS Feed
+      url: /posts/index.xml
+      weight: 20
+    - identifier: contact
+      name: Contatti
+      url: /contact/
+      weight: 30
+
+# Parametri del tema PaperMod
+params:
+  env: production
+  title: "Gregorio La Gamba"
+  description: "Blog personale su IT, sviluppo software e tecnologia."
+  keywords: [blog, professionale, tecnologia, sviluppo]
+  author: "Gregorio La Gamba"
+
+  # Immagine di default per social sharing
+  images: ["/images/og-default.png"]
+  
+  # Data format
+  DateFormat: "2 January 2006"
+  
+  # Tema
+  defaultTheme: auto # auto, light, dark
+  disableThemeToggle: false
+  
+  # SEO
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  
+  # Homepage
+  homeInfoParams:
+    Title: "Ciao, sono Gregorio 👋"
+    Content: >
+      💼 IT Solution Architect @ Eni Plenitude 📍 Milano, Italia  
+      
+      Benvenuto sul mio blog personale. Qui condivido articoli approfonditi su IT, sviluppo software e tecnologia, oltre a esperienze e riflessioni sulla crescita personale e professionale.  
+      Trovi gli ultimi articoli pubblicati subito qui sotto. Buona lettura! 👇
+  
+  # Social links
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/gregoriolagamba/"
+    - name: github
+      url: "https://github.com/gregoriolagamba"
+    - name: email
+      url: "mailto:gregoriolagamba@gmail.com"
+    - name: cv
+      url: "/cv.pdf"
+    - name: rss
+      url: "/posts/index.xml"
+  
+  # Analytics (opzionale)
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  
+  # Cover image per articoli
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # fuseOpts per ricerca
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+  # Edit post link (se vuoi permettere suggerimenti)
+  # editPost:
+  #   URL: "https://github.com/tuousername/tuorepo/tree/main/content"
+  #   Text: "Suggerisci modifiche"
+  #   appendFilePath: true
+  
+  # Label per homepage (opzionale)
+  # label:
+  #   text: "Gregorio La Gamba"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
+
+# Output formats
+outputs:
+  home:
+    - HTML
+    - JSON # necessario per search
+  posts:
+    - HTML
+    - JSON # necessario per search
+    - RSS # RSS solo per la sezione posts
+
+# Configurazione servizi
+services:
+  rss:
+    limit: 20  # Solo ultimi 20 articoli nel feed
+
+# Markup per syntax highlighting
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+# Privacy settings
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+  youtube:
+    privacyEnhanced: true
+
+# Taxonomies
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
