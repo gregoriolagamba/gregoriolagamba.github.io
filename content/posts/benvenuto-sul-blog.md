@@ -1,5 +1,6 @@
 ---
 title: "Benvenuto sul mio blog: innovazione, AI e riflessioni etiche e tecnologiche"
+slug: "benvenuto-sul-blog"
 date: 2026-01-02T10:00:00+01:00
 draft: false
 author: "Gregorio La Gamba"
@@ -15,6 +16,7 @@ cover:
 keywords: ["intelligenza artificiale", "AI in azienda", "solution architect", "innovazione tecnologica", "etica", "software"]
 ShowToc: true
 TocOpen: false
+schema: "Article"
 weight: 1
 ---
 
