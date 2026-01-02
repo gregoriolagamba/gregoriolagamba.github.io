@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Gregorio La Gamba - Personal Blog</title>
+    <link>https://gregoriolagamba.github.io/series/</link>
+    <description>Recent content in Series on Gregorio La Gamba - Personal Blog</description>
+    <generator>Hugo</generator>
+    <language>it-it</language>
+    <lastBuildDate>Sun, 29 Dec 2024 10:00:00 +0100</lastBuildDate>
+    <atom:link href="https://gregoriolagamba.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nome Serie</title>
+      <link>https://gregoriolagamba.github.io/series/nome-serie/</link>
+      <pubDate>Sun, 29 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://gregoriolagamba.github.io/series/nome-serie/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

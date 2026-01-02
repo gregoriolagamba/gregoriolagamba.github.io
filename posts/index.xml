@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts - Gregorio La Gamba - Personal Blog</title>
+    <link>https://gregoriolagamba.github.io/posts/</link>
+    <description>Articoli recenti dal blog di Gregorio La Gamba</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Fri, 02 Jan 2026 10:00:00 +0100</lastBuildDate><atom:link href="https://gregoriolagamba.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benvenuto sul mio blog: innovazione, AI e riflessioni etiche e tecnologiche</title>
+      <link>https://gregoriolagamba.github.io/posts/benvenuto-sul-blog/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      
+      <guid>https://gregoriolagamba.github.io/posts/benvenuto-sul-blog/</guid>
+      <description>&lt;h2 id=&#34;un-nuovo-spazio-di-condivisione&#34;&gt;Un nuovo spazio di condivisione&lt;/h2&gt;
+&lt;p&gt;Ciao e benvenuto!&lt;/p&gt;
+&lt;p&gt;Sono &lt;strong&gt;Gregorio La Gamba&lt;/strong&gt;, IT Solution Architect in Eni Plenitude, e questo è il mio blog personale.&lt;/p&gt;
+&lt;p&gt;Se mi segui già su LinkedIn, potresti conoscere la mia newsletter &lt;strong&gt;&amp;ldquo;Fermate Brevi&amp;rdquo;&lt;/strong&gt;, dove condivido riflessioni sulla crescita personale. Questo blog nasce come un suo complemento naturale: uno spazio dove posso approfondire temi tecnici, esplorare idee sull&amp;rsquo;innovazione e discutere le implicazioni della tecnologia con maggiore libertà e profondità.&lt;/p&gt;
+&lt;p&gt;Spero che possa essere utile non solo a me per organizzare i pensieri, ma anche a te per trovare spunti, soluzioni o semplicemente per riflettere e confrontarti su questi temi.&lt;/p&gt;
+&lt;p&gt;La tecnologia sta cambiando rapidamente il modo in cui viviamo e lavoriamo. Facciamolo in modo &lt;strong&gt;consapevole, etico e sostenibile&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;un-nuovo-spazio-di-condivisione&#34;&gt;Un nuovo spazio di condivisione&lt;/h2&gt;
+&lt;p&gt;Ciao e benvenuto!&lt;/p&gt;
+&lt;p&gt;Sono &lt;strong&gt;Gregorio La Gamba&lt;/strong&gt;, IT Solution Architect in Eni Plenitude, e questo è il mio blog personale.&lt;/p&gt;
+&lt;p&gt;Se mi segui già su LinkedIn, potresti conoscere la mia newsletter &lt;strong&gt;&amp;ldquo;Fermate Brevi&amp;rdquo;&lt;/strong&gt;, dove condivido riflessioni sulla crescita personale. Questo blog nasce come un suo complemento naturale: uno spazio dove posso approfondire temi tecnici, esplorare idee sull&amp;rsquo;innovazione e discutere le implicazioni della tecnologia con maggiore libertà e profondità.&lt;/p&gt;
+&lt;p&gt;Spero che possa essere utile non solo a me per organizzare i pensieri, ma anche a te per trovare spunti, soluzioni o semplicemente per riflettere e confrontarti su questi temi.&lt;/p&gt;
+&lt;p&gt;La tecnologia sta cambiando rapidamente il modo in cui viviamo e lavoriamo. Facciamolo in modo &lt;strong&gt;consapevole, etico e sostenibile&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;perché-questo-blog&#34;&gt;Perché questo blog?&lt;/h2&gt;
+&lt;p&gt;LinkedIn è fantastico per il networking e i contenuti veloci, ma ha i suoi limiti. Volevo uno spazio dove poter cercare di:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Approfondire argomenti tecnici&lt;/strong&gt; senza vincoli di lunghezza&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentare esperimenti&lt;/strong&gt; e progetti personali&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Riflettere con calma&lt;/strong&gt; su temi che richiedono più di qualche paragrafo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Condividere codice e soluzioni&lt;/strong&gt; in modo strutturato&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creare una knowledge base&lt;/strong&gt; delle cose che imparo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In pratica, questo blog è il mio esperimento nato dal &amp;ldquo;capriccio&amp;rdquo; di voler creare un &lt;strong&gt;laboratorio pubblico di idee&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;di-cosa-parlerò-qui&#34;&gt;Di cosa parlerò qui&lt;/h2&gt;
+&lt;p&gt;I temi principali che vorrei esplorare sono:&lt;/p&gt;
+&lt;h3 id=&#34;-intelligenza-artificiale-in-azienda&#34;&gt;🤖 Intelligenza artificiale in azienda&lt;/h3&gt;
+&lt;p&gt;Attualmente sto approfondendo l&amp;rsquo;AI e il suo utilizzo pratico in ambienti enterprise. Non mi interessano solo gli aspetti teorici, ma soprattutto:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Come &lt;strong&gt;adottare concretamente l&amp;rsquo;AI&lt;/strong&gt; nelle organizzazioni aziendali&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Casi d&amp;rsquo;uso reali&lt;/strong&gt; e loro implementazione&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sfide pratiche&lt;/strong&gt; nell&amp;rsquo;integrazione di soluzioni AI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sviluppo assistito da AI&lt;/strong&gt;: strumenti, workflow e best practices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ROI e valore business&lt;/strong&gt; delle iniziative AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-tecnologia-etica-e-innovazione-sostenibile&#34;&gt;💡 Tecnologia etica e innovazione sostenibile&lt;/h3&gt;
+&lt;p&gt;Sono profondamente interessato alle &lt;strong&gt;implicazioni etiche della tecnologia&lt;/strong&gt;. Credo che l&amp;rsquo;innovazione debba:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Restituirci tempo&lt;/strong&gt;, non rubarcelo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amplificare la creatività&lt;/strong&gt;, non sostituirla&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Favorire il focus&lt;/strong&gt;, non la distrazione continua&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Essere inclusiva e accessibile&lt;/strong&gt;, non esclusiva&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-progetti-ed-esperimenti&#34;&gt;🛠️ Progetti ed esperimenti&lt;/h3&gt;
+&lt;p&gt;Su &lt;a href=&#34;https://github.com/gregoriolagamba&#34;&gt;GitHub&lt;/a&gt; porto avanti piccoli progetti per esplorare idee e tecnologie. Qui pubblicherò aggiornamenti su:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Esperimenti con nuove tecnologie&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prototipi e proof of concept&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tool e script utili&lt;/strong&gt; che sviluppo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tutorial pratici&lt;/strong&gt; per problemi che ho risolto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;la-mia-filosofia&#34;&gt;La mia filosofia&lt;/h2&gt;
+&lt;h3 id=&#34;applicabilità-reale&#34;&gt;Applicabilità reale&lt;/h3&gt;
+&lt;p&gt;Non mi interessa la tecnologia per la tecnologia. Quello che mi motiva è capire &lt;strong&gt;come le innovazioni possano risolvere problemi concreti&lt;/strong&gt; e migliorare il modo in cui lavoriamo.&lt;/p&gt;
+&lt;p&gt;Trovo utile condividere:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Esempi pratici e applicabili&lt;/li&gt;
+&lt;li&gt;✅ Codice funzionante che è possibile riusare&lt;/li&gt;
+&lt;li&gt;✅ Riflessioni sulle opportunità di innovare in contesti aziendali reali&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;imparare-in-pubblico&#34;&gt;Imparare in pubblico&lt;/h3&gt;
+&lt;p&gt;Credo nel valore dell&amp;rsquo;&lt;strong&gt;apprendimento pubblico&lt;/strong&gt;. Non posterò solo ciò che so già perfettamente, ma anche:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esperimenti che sto provando a portare a termine&lt;/li&gt;
+&lt;li&gt;Cose che sto imparando in questo momento&lt;/li&gt;
+&lt;li&gt;Errori che ho fatto e come li ho risolti&lt;/li&gt;
+&lt;li&gt;Dubbi e domande aperte&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&amp;rsquo;obiettivo è creare &lt;strong&gt;conversazioni&lt;/strong&gt;, non distribuire conoscenza in modo unidirezionale.&lt;/p&gt;
+&lt;h3 id=&#34;focus-sulla-profondità&#34;&gt;Focus sulla profondità&lt;/h3&gt;
+&lt;p&gt;Preferisco scrivere &lt;strong&gt;meno articoli ma più approfonditi&lt;/strong&gt; piuttosto che pubblicare frequentemente contenuti. Cercherò in ogni post di riportare:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esempi concreti&lt;/li&gt;
+&lt;li&gt;Fonti e riferimenti&lt;/li&gt;
+&lt;li&gt;Spunti per approfondire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Questo non è un blog di news o tutorial. È uno &lt;strong&gt;spazio di condivisione&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;cosa-aspettarti&#34;&gt;Cosa aspettarti&lt;/h2&gt;
+&lt;h3 id=&#34;frequenza-di-pubblicazione&#34;&gt;Frequenza di pubblicazione&lt;/h3&gt;
+&lt;p&gt;Non pubblicherò con cadenza fissa perché preferisco la qualità alla quantità. Dipenderà dai temi che sto effettivamente esplorando in un determinato periodo.&lt;/p&gt;
+&lt;h3 id=&#34;stile-di-scrittura&#34;&gt;Stile di scrittura&lt;/h3&gt;
+&lt;p&gt;Cerco di mantenere uno stile:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Accessibile&lt;/strong&gt; ma non superficiale&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tecnico&lt;/strong&gt; quando serve ma senza gergo inutile&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Riflessivo&lt;/strong&gt; con spazio per dubbi e domande&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pratico&lt;/strong&gt; con esempi concreti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Grazie per aver letto fin qui!&lt;/strong&gt; 🚀&lt;/p&gt;
+&lt;p&gt;Ci vediamo nel prossimo articolo. Nel frattempo, se vuoi connetterti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💼 &lt;a href=&#34;https://linkedin.com/in/gregoriolagamba&#34;&gt;LinkedIn&lt;/a&gt; - networking professionale e newsletter &amp;ldquo;Fermate Brevi&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;🐙 &lt;a href=&#34;https://github.com/gregoriolagamba&#34;&gt;GitHub&lt;/a&gt; - progetti ed esperimenti&lt;/li&gt;
+&lt;li&gt;📡 &lt;a href=&#34;https://gregoriolagamba.github.io/posts/index.xml&#34;&gt;RSS feed&lt;/a&gt; per non perderti i nuovi contenuti&lt;/li&gt;
+&lt;li&gt;📧 &lt;a href=&#34;https://gregoriolagamba.github.io/contact&#34;&gt;Contattami&lt;/a&gt; - per conversazioni più approfondite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;P.S. - Se hai feedback su questo blog (design, contenuti, funzionalità), &lt;a href=&#34;https://gregoriolagamba.github.io/contact&#34;&gt;scrivimi&lt;/a&gt;! È un progetto in evoluzione e il tuo input è prezioso.&lt;/em&gt;&lt;/p&gt;</content:encoded>
+    </item>
+    
+  </channel>
+</rss>

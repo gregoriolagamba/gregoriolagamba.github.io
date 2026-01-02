@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Gregorio La Gamba</title>
+    <title>Categories on Gregorio La Gamba - Personal Blog</title>
     <link>https://gregoriolagamba.github.io/categories/</link>
-    <description>Recent content in Categories on Gregorio La Gamba</description>
+    <description>Recent content in Categories on Gregorio La Gamba - Personal Blog</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>it-it</language>
+    <lastBuildDate>Fri, 02 Jan 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://gregoriolagamba.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Condivisione</title>
+      <link>https://gregoriolagamba.github.io/categories/condivisione/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>https://gregoriolagamba.github.io/categories/condivisione/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Categoria Principale</title>
+      <link>https://gregoriolagamba.github.io/categories/categoria-principale/</link>
+      <pubDate>Sun, 29 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://gregoriolagamba.github.io/categories/categoria-principale/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
