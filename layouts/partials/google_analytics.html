@@ -38,7 +38,9 @@ if (!localStorage.getItem('cookie-consent')) {
   function gtag(){dataLayer.push(arguments);}
 
   gtag('js', new Date());
-  gtag('config', "{{ site.Config.Services.GoogleAnalytics.ID }}");
+  gtag('config', "{{ site.Config.Services.GoogleAnalytics.ID }}", {
+    anonymize_ip: true
+  });
 </script>
 
 <!-- Create one update function for each consent parameter -->
