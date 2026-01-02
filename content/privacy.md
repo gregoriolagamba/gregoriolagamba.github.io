@@ -37,7 +37,7 @@ Quando visiti questo sito, vengono raccolti automaticamente alcuni dati tecnici:
 
 Questi dati sono raccolti attraverso:
 - **GitHub Pages** (hosting del sito)
-- **Google Analytics** (se abilitato - vedi sezione dedicata)
+- **Google Analytics**
 
 ### 2. Cookie e Tecnologie Simili
 

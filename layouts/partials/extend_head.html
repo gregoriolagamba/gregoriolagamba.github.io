@@ -1,3 +1,4 @@
+{{- partial "_internal/google_analytics.html" . }}
 <!-- Cookie Consent Banner -->
 <div id="cookie-consent" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--secondary-blue-dark); color: white; padding: 1rem; z-index: 9999;">
   <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
@@ -22,20 +23,15 @@ function showCookieBanner() {
 function acceptCookies() {
   localStorage.setItem('cookie-consent', 'accepted');
   document.getElementById('cookie-consent').style.display = 'none';
-  // Inizializza Google Analytics qui se necessario
-  loadGoogleAnalytics();
+  // Abilita Google Analytics
+  consentGrantedAdStorage();
 }
 
 function rejectCookies() {
   localStorage.setItem('cookie-consent', 'rejected');
   document.getElementById('cookie-consent').style.display = 'none';
-}
-
-function loadGoogleAnalytics() {
-  // Carica GA solo se consenso dato
-  if (localStorage.getItem('cookie-consent') === 'accepted') {
-    // Il tuo codice GA qui
-  }
+  // Disabilita Google Analytics
+  denyGrantedAdStorage();
 }
 
 window.addEventListener('load', showCookieBanner);
