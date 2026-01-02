@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gregoriolagamba.github.io/sitemap.xml
+
+# Blocca pagine non necessarie
+Disallow: /admin/
+Disallow: /draft/
