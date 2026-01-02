@@ -24,14 +24,14 @@ function acceptCookies() {
   localStorage.setItem('cookie-consent', 'accepted');
   document.getElementById('cookie-consent').style.display = 'none';
   // Abilita Google Analytics
-  consentGrantedAdStorage();
+  grantAnalyticsStorage();
 }
 
 function rejectCookies() {
   localStorage.setItem('cookie-consent', 'rejected');
   document.getElementById('cookie-consent').style.display = 'none';
   // Disabilita Google Analytics
-  denyGrantedAdStorage();
+  denyAnalyticsStorage();
 }
 
 window.addEventListener('load', showCookieBanner);

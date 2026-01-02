@@ -4,14 +4,32 @@
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 
-// Set default consent to 'denied' as a placeholder
+// If cookie-consent not set, Set default consent to 'denied' as a placeholder
 // Determine actual values based on your own requirements
-gtag('consent', 'default', {
-  'ad_storage': 'denied',
-  'ad_user_data': 'denied',
-  'ad_personalization': 'denied',
-  'analytics_storage': 'denied'
-});
+if (!localStorage.getItem('cookie-consent')) {
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+} else if (localStorage.getItem('cookie-consent') === 'accepted') {
+  // If user has accepted cookies
+  gtag('consent', 'update', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'granted'
+  });
+} else {
+  // If user has rejected cookies
+  gtag('consent', 'update', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+}
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Config.Services.GoogleAnalytics.ID }}"></script>
@@ -25,12 +43,12 @@ gtag('consent', 'default', {
 
 <!-- Create one update function for each consent parameter -->
 <script>
-  function consentGrantedAdStorage() {
+  function grantAnalyticsStorage() {
     gtag('consent', 'update', {
       'analytics_storage': 'granted'
     });
   }
-  function denyGrantedAdStorage() {
+  function denyAnalyticsStorage() {
     gtag('consent', 'update', {
       'analytics_storage': 'denied'
     });
