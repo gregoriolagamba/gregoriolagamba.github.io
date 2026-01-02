@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Gregorio La Gamba - Personal Blog</title>
     <link>https://gregoriolagamba.github.io/tags/</link>
     <description>Recent content in Tags on Gregorio La Gamba - Personal Blog</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>Gregorio La Gamba - Personal Blog</title>
+      <url>https://gregoriolagamba.github.io/images/og-default.png</url>
+      <link>https://gregoriolagamba.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo -- 0.154.1</generator>
     <language>it-it</language>
     <lastBuildDate>Fri, 02 Jan 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://gregoriolagamba.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -41,27 +46,6 @@
       <link>https://gregoriolagamba.github.io/tags/tecnologia-etica/</link>
       <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
       <guid>https://gregoriolagamba.github.io/tags/tecnologia-etica/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag1</title>
-      <link>https://gregoriolagamba.github.io/tags/tag1/</link>
-      <pubDate>Sun, 29 Dec 2024 10:00:00 +0100</pubDate>
-      <guid>https://gregoriolagamba.github.io/tags/tag1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag2</title>
-      <link>https://gregoriolagamba.github.io/tags/tag2/</link>
-      <pubDate>Sun, 29 Dec 2024 10:00:00 +0100</pubDate>
-      <guid>https://gregoriolagamba.github.io/tags/tag2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag3</title>
-      <link>https://gregoriolagamba.github.io/tags/tag3/</link>
-      <pubDate>Sun, 29 Dec 2024 10:00:00 +0100</pubDate>
-      <guid>https://gregoriolagamba.github.io/tags/tag3/</guid>
       <description></description>
     </item>
   </channel>
