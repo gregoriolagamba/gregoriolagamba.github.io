@@ -13,6 +13,7 @@ pygmentsUseClasses: true
 
 # Lingua di default
 defaultContentLanguage: it
+defaultContentLanguageInSubdir: false
 
 # Configurazione minify
 minify:
