@@ -1,4 +1,4 @@
-name: Hugo CI/CD (Debug)
+name: Hugo CI/CD
 
 on:
   push:
@@ -22,48 +22,13 @@ jobs:
         hugo-version: 'latest'
         extended: true
 
-    # DEBUG: Verifica struttura repo
-    - name: Debug - Check repo structure
-      run: |
-        echo "📁 Repository structure:"
-        ls -la
-        echo ""
-        echo "🎨 Themes directory:"
-        ls -la themes/ || echo "❌ No themes directory!"
-        echo ""
-        echo "📄 Config files:"
-        ls -la *.yaml *.toml *.json 2>/dev/null || echo "No config files found"
-        echo ""
-        echo "📝 Content directory:"
-        ls -la content/ || echo "❌ No content directory!"
-
-    # DEBUG: Verifica Hugo version
-    - name: Debug - Hugo version
-      run: hugo version
-
-    # DEBUG: Verifica configurazione Hugo
-    - name: Debug - Hugo config
-      run: hugo config
-
     - name: Clean public directory
       run: rm -rf public
 
-    - name: Build with verbose output
-      run: hugo --minify --verbose --debug
-
-    - name: Verify build output
-      run: |
-        echo "📦 Public directory contents:"
-        ls -la public/
-        echo ""
-        echo "📊 Public directory size:"
-        du -sh public/
-        echo ""
-        echo "📄 Generated files count:"
-        find public -type f | wc -l
+    - name: Build
+      run: hugo --minify
 
     - name: Deploy
-      if: success()
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -71,4 +36,3 @@ jobs:
         publish_branch: master
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        commit_message: '🚀 Deploy from ${{ github.sha }}'
