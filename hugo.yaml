@@ -95,6 +95,10 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+
+  # Permalink strutturati e puliti
+  permalinks:
+    posts: "/:year/:month/:slug/"
   
   # Homepage
   homeInfoParams:
@@ -168,6 +172,7 @@ services:
     limit: 20  # Solo ultimi 20 articoli nel feed
   googleAnalytics:
     id: G-0ES4BP2T69
+
 # Markup per syntax highlighting
 markup:
   highlight:
