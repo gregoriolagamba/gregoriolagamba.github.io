@@ -157,6 +157,12 @@ params:
   #   icon: /apple-touch-icon.png
   #   iconHeight: 35
 
+# Configurazione sitemap
+sitemap:
+  changefreq: "weekly"
+  filename: "sitemap.xml"
+  priority: 0.5
+
 # Output formats
 outputs:
   home:
