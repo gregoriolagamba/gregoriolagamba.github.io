@@ -176,7 +176,7 @@ Revocare il consenso in qualsiasi momento (senza pregiudicare la liceità del tr
 
 Per esercitare i tuoi diritti, contattami a:
 
-📧 **Email**: [gregoriolagamba@email.com](mailto:tgregoriolagamba@gmail.com)
+📧 **Email**: [gregoriolagamba@gmail.com](mailto:gregoriolagamba@gmail.com)
 
 Risponderò entro **30 giorni** dalla richiesta.
 
