@@ -77,6 +77,13 @@ params:
   # Immagine di default per social sharing
   images: ["/images/og-default.png"]
   
+  # Favicon e icone
+  assets:
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
+
   # Data format
   DateFormat: "2 January 2006"
   
