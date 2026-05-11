@@ -8,12 +8,6 @@ showWordCount: false
 description: "Una selezione dei miei progetti più significativi e dei lavori a cui ho contribuito"
 ---
 
-# I miei progetti 🚀
-
-Una selezione dei lavori e dei progetti a cui ho dedicato tempo ed energia.
-
----
-
 ## 🌟 Progetti in evidenza
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
@@ -37,6 +31,10 @@ Widget per smartwatch Garmin che permette di monitorare le proprie metriche corp
 <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
 
 [📖 Documentazione](/bodymetrics/) • [💻 GitHub](https://github.com/org-gregoriolagamba-labs/com.garmin.bodymetrics)
+
+</div>
+
+</div>
 
 </div>
 
