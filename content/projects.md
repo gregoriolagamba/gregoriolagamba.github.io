@@ -26,7 +26,7 @@ Widget per smartwatch Garmin che permette di monitorare le proprie metriche corp
 - 🌍 Interfaccia in 4 lingue (IT, EN, FR, ES)
 - 🏗️ Architettura a layer clean con renderer, use case e policy separati
 
-**Release:** v1.0.1 — Maggio 2026
+**Release:** v1.0.0 — Maggio 2026
 
 <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
 
