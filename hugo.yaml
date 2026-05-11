@@ -31,10 +31,10 @@ menu:
       name: Blog
       url: /posts/
       weight: 20
-#    - identifier: progetti
-#      name: Progetti
-#      url: /projects/
-#      weight: 25
+    - identifier: progetti
+      name: Progetti
+      url: /projects/
+      weight: 25
     - identifier: about
       name: Chi Sono
       url: /about/
