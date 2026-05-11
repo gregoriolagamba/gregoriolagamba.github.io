@@ -30,7 +30,7 @@ Widget per smartwatch Garmin che permette di monitorare le proprie metriche corp
 
 <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
 
-[📖 Documentazione EN 🇬🇧](/bodymetrics/) • [📖 Documentazione IT 🇮🇹](/bodymetrics/it/) • [💻 GitHub](https://github.com/org-gregoriolagamba-labs/com.garmin.bodymetrics)
+<a href="/bodymetrics/" target="_blank" rel="noopener noreferrer">📖 Documentazione EN 🇬🇧 ↗️</a> • <a href="/bodymetrics/it/" target="_blank" rel="noopener noreferrer">📖 Documentazione IT 🇮🇹 ↗️</a> • <a href="https://github.com/org-gregoriolagamba-labs/com.garmin.bodymetrics" target="_blank" rel="noopener noreferrer">💻 GitHub ↗️</a>
 
 </div>
 
