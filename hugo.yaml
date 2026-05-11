@@ -1,5 +1,5 @@
 baseURL: "https://gregoriolagamba.github.io/"
-languageCode: "it-it"
+locale: "it-IT"
 title: "Gregorio La Gamba - Personal Blog"
 theme: "PaperMod"
 
@@ -175,10 +175,10 @@ outputs:
   home:
     - HTML
     - JSON # necessario per search
-  posts:
+  section:
     - HTML
     - JSON # necessario per search
-    - RSS # RSS solo per la sezione posts
+    - RSS # RSS solo per le sezioni
 
 # Configurazione servizi
 services:
@@ -189,6 +189,9 @@ services:
 
 # Markup per syntax highlighting
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     anchorLineNos: true
