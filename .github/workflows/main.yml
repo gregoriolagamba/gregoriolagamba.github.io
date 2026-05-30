@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      pull-requests: write
     
     steps:
     - name: Checkout
@@ -32,11 +31,36 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    - name: Deploy
+    - name: Push build to staging branch
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
-        publish_branch: master
+        publish_branch: deploy/preview
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Open PR and enable auto-merge
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gh pr create \
+          --base master \
+          --head deploy/preview \
+          --title "Deploy: Hugo build from develop" \
+          --body "Automated deployment triggered by push to \`develop\`." \
+          2>/dev/null || echo "PR already exists, skipping creation"
+
+        PR_NUMBER=$(gh pr list \
+          --base master \
+          --head deploy/preview \
+          --state open \
+          --json number \
+          --jq '.[0].number')
+
+        if [ -n "$PR_NUMBER" ]; then
+          echo "Enabling auto-merge on PR #$PR_NUMBER"
+          gh pr merge "$PR_NUMBER" --auto --merge
+        else
+          echo "No open PR found; nothing to merge"
+        fi
