@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentazione BodyMetrics on BodyMetrics Docs</title><link>https://gregoriolagamba.github.io/bodymetrics/it/</link><description>Documentazione ufficiale di BodyMetrics — il widget Garmin Connect IQ per il monitoraggio delle metriche corporee.</description><generator>Hugo</generator><language>it</language><lastBuildDate>Sun, 17 May 2026 16:32:26 +0200</lastBuildDate><atom:link href="https://gregoriolagamba.github.io/bodymetrics/it/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentazione BodyMetrics on BodyMetrics Docs</title><link>https://gregoriolagamba.github.io/bodymetrics/it/</link><description>Documentazione ufficiale di BodyMetrics — il widget Garmin Connect IQ per il monitoraggio delle metriche corporee.</description><generator>Hugo</generator><language>it</language><lastBuildDate>Sat, 30 May 2026 02:24:45 +0200</lastBuildDate><atom:link href="https://gregoriolagamba.github.io/bodymetrics/it/index.xml" rel="self" type="application/rss+xml"/><item><title>Informativa sulla Privacy</title><link>https://gregoriolagamba.github.io/bodymetrics/it/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gregoriolagamba.github.io/bodymetrics/it/privacy/</guid><description>&lt;p&gt;&lt;em&gt;Ultimo aggiornamento: maggio 2026&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="raccolta-dei-dati"&gt;Raccolta dei Dati&lt;/h2&gt;
+&lt;p&gt;BodyMetrics è un &lt;strong&gt;widget Garmin Connect IQ&lt;/strong&gt; che funziona interamente sul tuo dispositivo Garmin. Non raccoglie, trasmette né condivide alcun dato personale con server esterni o terze parti.&lt;/p&gt;
+&lt;p&gt;Tutti i dati vengono archiviati &lt;strong&gt;localmente sul tuo dispositivo&lt;/strong&gt; soltanto.&lt;/p&gt;
+&lt;h2 id="dati-archiviati-sul-dispositivo"&gt;Dati Archiviati sul Dispositivo&lt;/h2&gt;
+&lt;p&gt;BodyMetrics archivia localmente sul tuo dispositivo Garmin i seguenti dati:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Misurazioni corporee&lt;/strong&gt;: grasso corporeo (%), massa muscolare (kg), acqua corporea (%), massa ossea (kg) — inseriti manualmente dall&amp;rsquo;utente&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storico delle misurazioni&lt;/strong&gt;: fino a 90 giorni di valori registrati per ogni metrica&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Obiettivi personali&lt;/strong&gt;: valori target configurati dall&amp;rsquo;utente nel Target Editor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impostazioni e preferenze dell&amp;rsquo;app&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dati-da-garmin-connect"&gt;Dati da Garmin Connect&lt;/h2&gt;
+&lt;p&gt;BodyMetrics legge i seguenti dati dal tuo profilo Garmin Connect tramite le API ufficiali Garmin Connect IQ:&lt;/p&gt;</description></item></channel></rss>

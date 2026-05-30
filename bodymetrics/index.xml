@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BodyMetrics Documentation on BodyMetrics Docs</title><link>https://gregoriolagamba.github.io/bodymetrics/</link><description>Official documentation for BodyMetrics — the Garmin Connect IQ widget for body metrics tracking on your wrist.</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 17 May 2026 16:32:26 +0200</lastBuildDate><atom:link href="https://gregoriolagamba.github.io/bodymetrics/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BodyMetrics Documentation on BodyMetrics Docs</title><link>https://gregoriolagamba.github.io/bodymetrics/</link><description>Official documentation for BodyMetrics — the Garmin Connect IQ widget for body metrics tracking on your wrist.</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 30 May 2026 02:24:45 +0200</lastBuildDate><atom:link href="https://gregoriolagamba.github.io/bodymetrics/index.xml" rel="self" type="application/rss+xml"/><item><title>Privacy Policy</title><link>https://gregoriolagamba.github.io/bodymetrics/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gregoriolagamba.github.io/bodymetrics/privacy/</guid><description>&lt;p&gt;&lt;em&gt;Last updated: May 2026&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="data-collection"&gt;Data Collection&lt;/h2&gt;
+&lt;p&gt;BodyMetrics is a &lt;strong&gt;Garmin Connect IQ widget&lt;/strong&gt; that runs entirely on your Garmin device. It does &lt;strong&gt;not&lt;/strong&gt; collect, transmit, or share any personal data with external servers or third parties.&lt;/p&gt;
+&lt;p&gt;All data is stored &lt;strong&gt;locally on your device&lt;/strong&gt; only.&lt;/p&gt;
+&lt;h2 id="data-stored-on-device"&gt;Data Stored on Device&lt;/h2&gt;
+&lt;p&gt;BodyMetrics stores the following data locally on your Garmin device:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Body measurements&lt;/strong&gt;: body fat (%), muscle mass (kg), body water (%), bone mass (kg) — entered manually by the user&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measurement history&lt;/strong&gt;: up to 90 days of recorded values per metric&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal goals&lt;/strong&gt;: target values configured by the user in the Target Editor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App settings and preferences&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="data-from-garmin-connect"&gt;Data from Garmin Connect&lt;/h2&gt;
+&lt;p&gt;BodyMetrics reads the following data from your Garmin Connect profile via the official Garmin Connect IQ API:&lt;/p&gt;</description></item></channel></rss>
