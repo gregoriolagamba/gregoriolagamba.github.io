@@ -44,13 +44,6 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        gh pr create \
-          --base master \
-          --head deploy/preview \
-          --title "Deploy: Hugo build from develop" \
-          --body "Automated deployment triggered by push to \`develop\`." \
-          2>/dev/null || echo "PR already exists, skipping creation"
-
         PR_NUMBER=$(gh pr list \
           --base master \
           --head deploy/preview \
@@ -58,9 +51,28 @@ jobs:
           --json number \
           --jq '.[0].number')
 
+        if [ -z "$PR_NUMBER" ]; then
+          echo "No open PR found, creating one..."
+          gh pr create \
+            --base master \
+            --head deploy/preview \
+            --title "Deploy: Hugo build from develop" \
+            --body "Automated deployment triggered by push to \`develop\`."
+
+          PR_NUMBER=$(gh pr list \
+            --base master \
+            --head deploy/preview \
+            --state open \
+            --json number \
+            --jq '.[0].number')
+        else
+          echo "PR #$PR_NUMBER already exists, skipping creation"
+        fi
+
         if [ -n "$PR_NUMBER" ]; then
           echo "Enabling auto-merge on PR #$PR_NUMBER"
           gh pr merge "$PR_NUMBER" --auto --merge
         else
-          echo "No open PR found; nothing to merge"
+          echo "ERROR: PR not found after creation attempt"
+          exit 1
         fi
