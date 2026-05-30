@@ -31,19 +31,31 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    - name: Push build to staging branch
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        publish_branch: deploy/preview
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-
-    - name: Open PR and enable auto-merge
+    - name: Push build to staging branch and open PR
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        # Fetch master so we have it locally
+        git fetch origin master
+
+        # Create or reset deploy/preview from master (ensures shared history)
+        git checkout -B deploy/preview origin/master
+
+        # Remove everything tracked and copy the build output
+        git rm -rf . --quiet
+        cp -r public/. .
+        rm -rf public
+
+        git add -A
+        git commit -m "Deploy: Hugo build from develop [$(date -u '+%Y-%m-%dT%H:%M:%SZ')]" \
+          || echo "Nothing to commit, build is identical"
+
+        git push origin deploy/preview --force
+
+        # Open PR if not already open
         PR_NUMBER=$(gh pr list \
           --base master \
           --head deploy/preview \
@@ -52,7 +64,7 @@ jobs:
           --jq '.[0].number')
 
         if [ -z "$PR_NUMBER" ]; then
-          echo "No open PR found, creating one..."
+          echo "Creating PR..."
           gh pr create \
             --base master \
             --head deploy/preview \
