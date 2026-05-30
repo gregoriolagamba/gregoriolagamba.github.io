@@ -44,8 +44,13 @@ jobs:
         # Create or reset deploy/preview from master (ensures shared history)
         git checkout -B deploy/preview origin/master
 
-        # Remove everything tracked and copy the build output
-        git rm -rf . --quiet
+        # Remove everything from the index
+        git rm -rf --cached . --quiet || true
+
+        # Physically delete all files/dirs except .git (avoids re-adding nested git repos as gitlinks)
+        find . -mindepth 1 -maxdepth 1 -not -name '.git' -exec rm -rf {} +
+
+        # Copy the Hugo build output to the root
         cp -r public/. .
         rm -rf public
 
