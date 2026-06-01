@@ -483,13 +483,6 @@ blockquote p {
     color: var(--accent-warm);
 }
 
-/* FAQ Section */
-.post-content h2 + p strong {
-    display: block;
-    margin-top: 1.5rem;
-    color: var(--primary);
-}
-
 /* ===== PROJECT CARDS ===== */
 .project-card {
     transition: all 0.3s ease;
