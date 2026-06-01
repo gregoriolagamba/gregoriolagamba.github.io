@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wearables on Gregorio La Gamba - Personal Blog</title>
+    <link>https://gregoriolagamba.github.io/tags/wearables/</link>
+    <description>Recent content in Wearables on Gregorio La Gamba - Personal Blog</description>
+    <image>
+      <title>Gregorio La Gamba - Personal Blog</title>
+      <url>https://gregoriolagamba.github.io/images/og-default.png</url>
+      <link>https://gregoriolagamba.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Sat, 30 May 2026 10:00:00 +0200</lastBuildDate>
+    <atom:link href="https://gregoriolagamba.github.io/tags/wearables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BodyMetrics: da un&#39;esigenza personale a un widget Garmin pubblicato per la community</title>
+      <link>https://gregoriolagamba.github.io/2026/05/30/bodymetrics-da-esigenza-personale-a-widget-garmin/</link>
+      <pubDate>Sat, 30 May 2026 10:00:00 +0200</pubDate>
+      <guid>https://gregoriolagamba.github.io/2026/05/30/bodymetrics-da-esigenza-personale-a-widget-garmin/</guid>
+      <description>Come e perchè ho sviluppato BodyMetrics, un widget Garmin Connect IQ nato per rendere più leggibili e utili i dati di body composition.</description>
+    </item>
+  </channel>
+</rss>
