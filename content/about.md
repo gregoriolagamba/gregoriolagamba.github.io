@@ -15,9 +15,9 @@ showWordCount: false
 
 # Ciao, mi presento! 👋
 
-Sono un **IT Solution Architect** con 20+ anni di esperienza su progetti in ambito Telco, Finance ed Utilities e con pregressa esperienza su molteplici contesti tecnologici e in diversi ruoli e mansioni (analista programmatore, team leader, project manager, test manager, business and functional analyst).
+Sono un **AI Software Engineer** con oltre 20 anni di esperienza nei settori Telco, Finance e Utilities. Nel mio percorso ho ricoperto ruoli diversi, tra cui Solution Architect, Team Leader, Project Manager, Test Manager, Business e Functional Analyst e Analista Programmatore.
 
-Attualmente lavoro in **Eni Plenitude**, dove nell'ultimo periodo ho cominciato ad occuparmi di tematiche legate allo sviluppo di software tramite l'ausilio di strumenti di AI.
+In **Eni Plenitude** contribuisco alla creazione e allo sviluppo della AI Software Factory. Mi occupo di soluzioni software AI-assisted, tool interni per automatizzare e ottimizzare i processi aziendali e iniziative per evolvere il Software Development Life Cycle (SDLC). Il mio obiettivo è aiutare a rendere lo sviluppo più efficiente, contenere tempi e costi e trasformare opportunità tecnologiche in soluzioni concrete.
 
 Questo blog è il mio spazio per condividere **riflessioni**, **esperienze pratiche** e **insights** che vanno oltre i limiti di quello che può permettere un semplice post su LinkedIn.
 
@@ -42,15 +42,20 @@ Attività di consulenza per il cliente Snam Rete Gas S.p.A.
 Attività di consulenza presso ICBPI (ora diventata Nexi)
 - **Apr 2015 - Mag 2024** - Project Manager @ Lynx S.p.A.  
 Project Manager, Test Manager, Business and Functional Analyst, Solution Architect su molteplici attività progettuali per clienti in ambito Finance (Mediobanca Innovation Services, CheBanca!, Banca Esperia, Compass, Banca Popolare di Sondrio, Banca Intesa, Banca IFIS) e Utilities (Enel, Eni Plenitude).
-- **Mag 2024 - presente** - IT Solution Architect  @ Eni Plenitude  
-Definizione e validazione delle soluzioni tecniche e architetturali per attività progettuali richieste dal business.
+- **Mag 2024 - Lug 2025** - IT Solution Architect @ Eni Plenitude  
+Definizione e validazione delle soluzioni tecniche e architetturali per le iniziative progettuali.
+- **Lug 2025 - presente** - AI Software Engineer @ Eni Plenitude  
+Sviluppo AI-assisted, realizzazione di tool interni e contributo all'evoluzione della AI Software Factory e del SDLC.
 
 ### Cosa faccio oggi
 
-Attualmente mi concentro su:
+Oggi, come AI Software Engineer in Eni Plenitude, mi concentro su:
 
-- 🎯 **Disegno di soluzioni software**: lo faccio all'interno di iniziative progettuali in cui supporto la definizione del design funzionale, definisco e documento la soluzione tecnica di piattaforma per garantirne l'aderenza ai requisiti di business, e infine supporto il disegno dei test funzionali e di integrazione, l'esecuzione dei test end to end e la fase di rilascio e post avvio.
-- 💡 **Sviluppo di software**: lo faccio contribuendo all'interno di una software factory interna all'analisi di requisiti tecnici e allo sviluppo del codice che serve per soddisfarli. Tutte le attività di analisi, implementazione, rilascio e test vengono eseguite facendo uso di strumenti di AI (prodotti commerciali o artefatti ingegnerizzati all'interno del team).
+- **Sviluppo AI-assisted**: realizzo soluzioni software per le iniziative progettuali, utilizzando strumenti e metodologie basati sull'Intelligenza Artificiale.
+- **Automazione dei processi**: progetto e sviluppo tool e soluzioni interne con l'obiettivo di ottimizzare i processi aziendali e ridurre tempi e costi operativi.
+- **Evoluzione del SDLC**: contribuisco a introdurre approcci e strumenti per migliorare efficienza, qualità e velocità di delivery lungo il ciclo di vita del software.
+- **Innovazione e trasformazione**: sperimento tecnologie, framework e strumenti AI e collaboro per tradurre esigenze di business in prodotti e servizi software concreti e scalabili.
+- **Crescita delle competenze interne**: supporto l'internalizzazione di attività e competenze nelle diverse fasi dello sviluppo software.
 
 ---
 
@@ -58,8 +63,14 @@ Attualmente mi concentro su:
 
 Le aree in cui ho maturato competenze ed esperienza:
 
-🔧 **Software Design**
+🔧 **Software Architecture Design**
 Progetto architetture software partendo dal dominio e dai reali bisogni del business.
+
+🤖 **Sviluppo software con AI**
+Utilizzo metodologie AI-assisted e flussi di lavoro agentici per supportare lo sviluppo e l'evoluzione del ciclo di vita del software.
+
+🧰 **Oracle PL/SQL Development**
+Competenze di sviluppo su database e procedure Oracle PL/SQL.
 
 🔄 **BPM tools**
 Disegno i processi e li uso per semplificare, governare e integrare sistemi complessi.
