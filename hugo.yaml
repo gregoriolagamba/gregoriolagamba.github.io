@@ -126,7 +126,7 @@ params:
     - name: email
       url: "mailto:gregoriolagamba@gmail.com"
     - name: cv
-      url: "/cv.pdf"
+      url: "/cv/"
     - name: rss
       url: "/posts/index.xml"
   
