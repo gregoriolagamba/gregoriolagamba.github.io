@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+<head><script src="/bodymetrics/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=bodymetrics/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="base-url" content="/bodymetrics/it/">
+
+<title>Changelog — BodyMetrics Docs</title>
+<meta name="description" content="Cronologia dei rilasci e principali cambiamenti per BodyMetrics.">
+
+
+<meta name="author" content="Gregorio La Gamba">
+
+
+
+<meta property="og:title"       content="Changelog">
+<meta property="og:description" content="Cronologia dei rilasci e principali cambiamenti per BodyMetrics.">
+<meta property="og:type"        content="article">
+<meta property="og:url"         content="http://localhost:1313/bodymetrics/it/v1.1.0/articles/changelog/">
+
+
+
+<link rel="canonical" href="http://localhost:1313/bodymetrics/it/v1.1.0/articles/changelog/">
+
+
+
+
+
+
+<link rel="stylesheet" href="/bodymetrics/css/main.min.50359e498833ba5ee76f58bb81d27a1e77ffd4bc0b06546f3a6645d835b9bd87.css" integrity="sha256-UDWeSYgzul7nb1i7gdJ6Hnf/1LwLBlRvOmZF2DW5vYc=">
+
+
+<link rel="icon" type="image/svg+xml" href="/bodymetrics/favicon.svg">
+
+
+<script>
+  (function(){
+    var t=localStorage.getItem("shiori-theme");
+    if(t){document.documentElement.setAttribute("data-theme",t);}
+    else if(window.matchMedia("(prefers-color-scheme: dark)").matches){document.documentElement.setAttribute("data-theme","dark");}
+  })();
+</script>
+
+
+
+<script src="/bodymetrics/js/main.min.70f17b946abaab707e5eaecaf9de1c9e7be5bd8dc9224f4dca2489f4d105b460.js" integrity="sha256-cPF7lGq6q3B&#43;Xq7K&#43;d4cnnvlvY3JIk9NyiSJ9NEFtGA=" defer></script>
+
+</head>
+<body>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <header class="site-header" role="banner">
+  
+  <button id="hamburger" class="icon-btn" aria-label="Toggle sidebar" aria-expanded="false" aria-controls="site-sidebar">
+    <svg viewBox="0 0 16 16"><path d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75Zm0 5A.75.75 0 0 1 1.75 7h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 7.75ZM1.75 12h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Z"/></svg>
+  </button>
+
+  
+  <a class="header-logo" href="/bodymetrics/it/" aria-label="BodyMetrics Docs home">
+    
+    <span class="header-logo-text">BodyMetrics</span>
+  </a>
+  <div class="header-search-wrap">
+    <div class="search-box">
+      <svg class="search-icon" viewBox="0 0 16 16"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"/></svg>
+      <input
+        id="header-search-input"
+        class="search-input"
+        type="search"
+        placeholder="Cerca nella documentazione…"
+        autocomplete="off"
+        spellcheck="false"
+        aria-label="Search documentation"
+      >
+      <div id="header-search-results" class="search-results" role="listbox" aria-label="Search results"></div>
+    </div>
+  </div>
+
+  
+  <div class="header-actions">
+    
+    <a href="https://github.com/org-gregoriolagamba-labs/com.garmin.bodymetrics" class="icon-btn" target="_blank" rel="noopener" aria-label="GitHub repository">
+      <svg viewBox="0 0 16 16"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg>
+    </a>
+    
+
+    
+    <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">
+      
+      <svg class="icon-sun" viewBox="0 0 24 24" style="display:none">
+        <circle cx="12" cy="12" r="4" fill="currentColor"/>
+        <line x1="12" y1="2"  x2="12" y2="5"  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <line x1="12" y1="19" x2="12" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <line x1="2"  y1="12" x2="5"  y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <line x1="4.22"  y1="4.22"  x2="6.34"  y2="6.34"  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <line x1="17.66" y1="17.66" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <line x1="4.22"  y1="19.78" x2="6.34"  y2="17.66" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <line x1="17.66" y1="6.34"  x2="19.78" y2="4.22"  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      
+      <svg class="icon-moon" viewBox="0 0 24 24">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="currentColor"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+  <div class="layout has-toc">
+    <aside class="site-sidebar" id="site-sidebar" aria-label="Sidebar navigation">
+      <div class="sidebar-mobile-header">
+  <button id="sidebar-close" class="icon-btn sidebar-close" type="button" aria-label="Close sidebar">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.22 3.22a.75.75 0 0 1 1.06 0L8 6.94l3.72-3.72a.75.75 0 1 1 1.06 1.06L9.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L8 9.06l-3.72 3.72a.75.75 0 1 1-1.06-1.06L6.94 8 3.22 4.28a.75.75 0 0 1 0-1.06Z"/></svg>
+  </button>
+</div>
+
+
+
+<div class="sidebar-version">
+  <select id="version-picker" class="version-picker" aria-label="Documentation version">
+    
+    <option value="/bodymetrics/it/v1.0.0/" >v1.0.0</option>
+    
+    <option value="/bodymetrics/it/v1.1.0/" selected>v1.1.0</option>
+    
+  </select>
+</div>
+
+
+
+<div class="sidebar-search-wrap">
+  <div class="search-box">
+    <svg class="search-icon" viewBox="0 0 16 16"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"/></svg>
+    <input
+      id="sidebar-search-input"
+      class="search-input"
+      type="search"
+      placeholder="Cerca nella documentazione…"
+      autocomplete="off"
+      spellcheck="false"
+      aria-label="Search"
+    >
+    <div id="sidebar-search-results" class="search-results" role="listbox"></div>
+  </div>
+</div>
+
+<nav aria-label="Documentation navigation">
+    <div class="sidebar-section">
+      <span class="sidebar-section-title">Articoli</span>
+
+      
+      <ul class="sidebar-nav-list">
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/articles/overview/" aria-current="false">Panoramica
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/articles/getting-started/" aria-current="false">Introduzione
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/articles/supported-devices/" aria-current="false">Dispositivi Supportati
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/articles/features/" aria-current="false">Funzionalità
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/articles/navigation/" aria-current="false">Navigazione
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/articles/localization/" aria-current="false">Localizzazione
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/articles/faq/" aria-current="false">FAQ
+          </a>
+        </li>
+        <li class="sidebar-nav-item active">
+          <a href="/bodymetrics/it/v1.1.0/articles/changelog/" aria-current="page">Changelog
+          </a>
+        </li>
+      </ul>
+    </div>
+    <hr class="sidebar-divider">
+    
+    <div class="sidebar-section">
+      <span class="sidebar-section-title">Design</span>
+
+      
+      <ul class="sidebar-nav-list">
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/design/architecture/" aria-current="false">Architettura
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/design/renderers/" aria-current="false">Sistema di Rendering
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/design/data-flow/" aria-current="false">Flusso dei Dati
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="/bodymetrics/it/v1.1.0/design/i18n-system/" aria-current="false">Sistema i18n
+          </a>
+        </li>
+      </ul>
+    </div>
+    <hr class="sidebar-divider">
+    </nav>
+
+    </aside>
+
+    <main class="main-content" id="main-content">
+      
+<div class="content-inner">
+
+  
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="/bodymetrics/it/">Home</a>
+  <span class="sep" aria-hidden="true">/</span>
+
+  
+    
+    
+      
+      
+      
+      <a href="/bodymetrics/it/v1.1.0/">v1.1.0</a>
+      <span class="sep" aria-hidden="true">/</span>
+    
+  
+
+  
+  
+    <a href="/bodymetrics/it/v1.1.0/">Documentazione BodyMetrics</a>
+    <span class="sep" aria-hidden="true">/</span>
+  
+  
+
+  <span class="current" aria-current="page">Changelog</span>
+</nav>
+
+
+
+  <h1 class="page-title">Changelog</h1>
+
+  
+  <p class="page-summary">Cronologia dei rilasci e principali cambiamenti per BodyMetrics.</p>
+  
+
+  <div class="page-meta">
+    <time datetime="2026-06-14">
+      June 14, 2026
+    </time>
+
+    
+    <div class="tags-list" style="margin: 0;">
+      
+      <a class="tag-link" href="/bodymetrics/it/tags/changelog/">changelog</a>
+      
+      <a class="tag-link" href="/bodymetrics/it/tags/rilasci/">rilasci</a>
+      
+    </div>
+    
+
+    
+    
+
+    
+  </div>
+
+  <div class="prose">
+    <h2 id="v110--14-giugno-2026">v1.1.0 — 14 giugno 2026</h2>
+<span class="badge badge-blue">espansione multi-dispositivo</span>
+
+<h3 id="-evidenze">🎉 Evidenze</h3>
+<ul>
+<li><strong>Supporto dei dispositivi espanso da 1 a 53 dispositivi Garmin</strong></li>
+<li><strong>Infrastruttura automatizzata di build e test multi-dispositivo</strong></li>
+<li><strong>Documentazione e guida di compatibilità dei dispositivi migliorate</strong></li>
+</ul>
+<h3 id="funzionalità">Funzionalità</h3>
+<ul>
+<li>Supporto espanso a 53 dispositivi Garmin Connect IQ su 11 famiglie di prodotti
+<ul>
+<li>Forerunner (11 dispositivi), Fenix (serie 7/8), Epix, Venu, Vivoactive</li>
+<li>MARQ 2, Enduro 3, serie D2, Instinct 3 AMOLED, Descent, Approach</li>
+</ul>
+</li>
+<li>Sistema automatizzato di validazione build multi-dispositivo (<code>.vscode/build-all-devices.sh</code>)</li>
+<li>Launcher del simulatore specifico per dispositivo con logica di retry (<code>.vscode/run-sim.sh</code>)</li>
+<li>Integrazione dei task di VS Code con dropdown di selezione dispositivo (53 dispositivi disponibili)</li>
+<li>Matrice di compatibilità dei dispositivi e rapporto di build completo</li>
+</ul>
+<h3 id="miglioramenti-ux">Miglioramenti UX</h3>
+<ul>
+<li>Ottimizzazione del rendering cross-device con interfaccia completamente adattiva</li>
+<li>Geometria dinamica degli accordi per schermi circolari</li>
+<li>Supporto sia per display MIP (e-ink) che AMOLED</li>
+<li>Nessun percorso di codice specifico per dispositivo richiesto (sistema di rendering universale)</li>
+</ul>
+<h3 id="architettura-e-dipendenze">Architettura e Dipendenze</h3>
+<ul>
+<li>Aggiornamento del livello API minimo da 1.2.0 a 2.3.0</li>
+<li>Garantisce compatibilità con i dispositivi Garmin moderni</li>
+<li>Supporta Application.Storage richiesto dal livello di persistenza dei dati</li>
+<li>Evita il limite di argomenti del metodo API 3.x (max 9 argomenti per metodo)</li>
+<li>Validazione build: <strong>53/53 dispositivi superano</strong> (100% di successo)</li>
+</ul>
+<h3 id="corretti">Corretti</h3>
+<ul>
+<li>Corretto un crash in modalità wizard durante la pressione rapida oltre il primo o l&rsquo;ultimo valore di un campo profilo o di una finestra di trend (avvolgimento dell&rsquo;indice con valori negativi)</li>
+</ul>
+<h3 id="documentazione">Documentazione</h3>
+<ul>
+<li>Aggiunta sezione &ldquo;Dispositivi Supportati&rdquo; nel README con elenco completo dei dispositivi</li>
+<li>Creata tabella completa di compatibilità dei dispositivi</li>
+<li>Aggiunta guida di test specifica per dispositivo</li>
+<li>Nuova pagina <a href="../supported-devices/">Dispositivi Supportati</a> con tutti i 53 modelli, tipo di display e dimensione dello schermo</li>
+<li>Changelog esteso con breakdown completo delle funzionalità per v1.1.0</li>
+</ul>
+<h3 id="limitazioni-note-ed-esclusioni">Limitazioni Note ed Esclusioni</h3>
+<p><strong>Dispositivi Esclusi (incompatibilità API 3.x):</strong></p>
+<ul>
+<li>Forerunner 745, 945, 945 LTE (API 3.3/3.4)</li>
+<li>Descent MK1, Descent MK2, Descent MK2S (API 3.x)</li>
+<li>Modelli MARQ Gen 1 (API 3.4)</li>
+</ul>
+<p><strong>Motivo:</strong> Monkey C API 3.x ha un limite fisso di 9 argomenti per metodo. I metodi BodyMetrics <code>buildTargetMetric()</code>, <code>buildTargetMetricThresholds()</code> e <code>_drawMiniChart()</code> richiedono 10+ argomenti, causando errori di compilazione. Questi dispositivi verranno ri-aggiunti in un futuro rilascio quando Garmin risolverà questa limitazione API.</p>
+<p><strong>Altre esclusioni:</strong></p>
+<ul>
+<li>D2 Air: memoria widget di 512 KB, inferiore ai 768 KB usati dagli altri dispositivi supportati</li>
+</ul>
+<hr>
+<h2 id="v100--12-maggio-2026">v1.0.0 — 12 maggio 2026</h2>
+<span class="badge badge-green">primo rilascio stabile</span>
+
+<h3 id="funzionalità-1">Funzionalità</h3>
+<ul>
+<li>Viste di riepilogo e dettagli per tutte le metriche tracciate.</li>
+<li>Schermi informativi con descrizioni delle metriche, zone di riferimento e contesto di lettura.</li>
+<li>Visualizzazione dei trend storici con finestre temporali selezionabili.</li>
+<li>Flusso di lavoro guidato al primo avvio per l&rsquo;impostazione del profilo utente.</li>
+<li>Flusso di lavoro guidato per l&rsquo;inserimento delle misurazioni corporee.</li>
+<li>Flusso di lavoro guidato per l&rsquo;impostazione dei target personalizzati.</li>
+<li>Calcolo del delta target rispetto al target effettivo.</li>
+<li>Supporto per peso, grasso corporeo, massa muscolare, idratazione e massa ossea.</li>
+<li>Valori derivati: BMI, percentuale muscolare, BMR di riferimento e potenza di uscita.</li>
+<li>Cronologia locale per grafici di trend e stati informativi.</li>
+<li>Distinzione tra dati locali manuali e peso del profilo utente Garmin.</li>
+<li>Commutazione della lingua dell&rsquo;interfaccia (IT, EN, FR, ES).</li>
+<li>Reset completo dei dati locali dell&rsquo;app.</li>
+<li><strong>System Info → Website</strong>: pulsante selezionabile che apre una vista QR code a schermo intero centrata sul display.</li>
+<li>Documentazione del progetto bilingue (IT/EN).</li>
+</ul>
+<h3 id="miglioramenti-ux-1">Miglioramenti UX</h3>
+<ul>
+<li><strong>Tasto MENU nella procedura guidata</strong>: bloccato durante la modalità procedura guidata di inserimento dati per evitare l&rsquo;apertura accidentale del menu di sistema.</li>
+<li><strong>Navigazione della procedura guidata</strong>: accelerazione a pressione rapida per UP/DOWN — i tocchi consecutivi entro 600 ms aumentano progressivamente il moltiplicatore di passaggio (×1 → ×5 → ×10 → ×50).</li>
+</ul>
+<h3 id="architettura">Architettura</h3>
+<ul>
+<li>Architettura pulita a sei livelli: coordinamento UI, rendering, facciata di dominio, casi d&rsquo;uso, regole di business e localizzazione.</li>
+<li><code>round1Global()</code> / <code>fmt1Global()</code> globali come funzioni autoritative singole di arrotondamento e formattazione.</li>
+<li><code>RendererCommon</code> come singola fonte autorevole di tutti i layout di testo e le utilità di disegno.</li>
+<li>Livello di policy puro e senza effetti collaterali (ClassificationPolicy, ThresholdFactory, HealthCalculators).</li>
+<li>Sistema i18n a tre componenti: catalogo, adapter e validatore di completezza.</li>
+<li>Servizio cache dei trend con invalidazione al salvataggio delle misurazioni, reset, cambio metrica e cambio finestra.</li>
+</ul>
+<h3 id="compatibilità">Compatibilità</h3>
+<ul>
+<li>Validato sul target <code>fr265</code>, build di riferimento v15: <strong>BUILD RIUSCITO</strong>.</li>
+</ul>
+
+  </div>
+
+  
+<nav class="prev-next" aria-label="Previous and next pages">
+  <div>
+    
+    <a class="prev-next-link prev" href="/bodymetrics/it/v1.1.0/articles/faq/">
+      <span class="prev-next-direction">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"/></svg>
+        Precedente
+      </span>
+      <span class="prev-next-title">FAQ</span>
+    </a>
+    
+  </div>
+  <div>
+    
+  </div>
+</nav>
+
+
+
+</div>
+
+    </main>
+
+    
+    <aside class="toc-sidebar" aria-label="Table of contents">
+      <div class="toc-inner">
+  <p class="toc-title">In questa pagina</p>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#v110--14-giugno-2026">v1.1.0 — 14 giugno 2026</a>
+      <ul>
+        <li><a href="#-evidenze">🎉 Evidenze</a></li>
+        <li><a href="#funzionalità">Funzionalità</a></li>
+        <li><a href="#miglioramenti-ux">Miglioramenti UX</a></li>
+        <li><a href="#architettura-e-dipendenze">Architettura e Dipendenze</a></li>
+        <li><a href="#corretti">Corretti</a></li>
+        <li><a href="#documentazione">Documentazione</a></li>
+        <li><a href="#limitazioni-note-ed-esclusioni">Limitazioni Note ed Esclusioni</a></li>
+      </ul>
+    </li>
+    <li><a href="#v100--12-maggio-2026">v1.0.0 — 12 maggio 2026</a>
+      <ul>
+        <li><a href="#funzionalità-1">Funzionalità</a></li>
+        <li><a href="#miglioramenti-ux-1">Miglioramenti UX</a></li>
+        <li><a href="#architettura">Architettura</a></li>
+        <li><a href="#compatibilità">Compatibilità</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+    </aside>
+    
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+  <div class="footer-content">
+    <div class="footer-grid">
+      
+      <div class="footer-brand">
+        <a href="/bodymetrics/it/" class="footer-logo">BodyMetrics</a>
+        
+        <p class="footer-tagline">A Garmin Connect IQ widget for body metrics tracking on your wrist</p>
+        
+        
+        <p class="footer-license">
+          Commons Clause &#43; MIT
+          
+          <a href="https://github.com/org-gregoriolagamba-labs/com.garmin.bodymetrics/blob/main/LICENSE" target="_blank" rel="noopener">License</a>
+          
+        </p>
+        
+        <div class="footer-social">
+          
+          <a href="https://github.com/org-gregoriolagamba-labs/com.garmin.bodymetrics" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+              <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/>
+            </svg>
+          </a>
+          
+          
+          <a href="https://gregoriolagamba.github.io" target="_blank" rel="noopener" aria-label="Website">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 4h6v6" />
+              <path d="M10 14 20 4" />
+              <path d="M20 14v4a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h4" />
+            </svg>
+          </a>
+          
+        </div>
+      </div>
+
+      
+      <div class="footer-section">
+        <p class="footer-section-title">Documentation</p>
+        <nav class="footer-nav" aria-label="Documentation links">
+          
+          
+            
+            
+              
+                
+              
+            
+          
+          
+          
+            
+              <a href="/bodymetrics/it/v1.1.0/articles/" class="footer-nav-link">Articoli</a>
+            
+              <a href="/bodymetrics/it/v1.1.0/design/" class="footer-nav-link">Design</a>
+            
+          
+        </nav>
+      </div>
+
+      
+      <div class="footer-section">
+        <p class="footer-section-title">About</p>
+        <p class="footer-meta">
+          Built with <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+        </p>
+        <p class="footer-meta">
+          <a href="https://github.com/carmelolg/shiori" target="_blank" rel="noopener">Shiori</a>
+          theme by <a href="https://github.com/carmelolg" target="_blank" rel="noopener">carmelolg</a>
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="footer-bottom">
+      
+      <span>&copy; 2026 Gregorio La Gamba — all rights reserved</span>
+      
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
