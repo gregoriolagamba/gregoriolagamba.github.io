@@ -44,7 +44,7 @@ Se hai già anni di esperienza con i grafici, probabilmente non troverai nulla d
 - **Un caso pratico in cinque passi**, con numeri di esempio, dal grafico fino alla decisione.
 - **Test di verifica con soluzioni** e un glossario dei termini.
 
-Il libro conta 38 pagine ed è pensato per essere letto in una o due sere.
+Il libro conta circa 40 pagine ed è pensato per essere letto in una o due sere.
 
 ## Come sono fatte le pagine
 
